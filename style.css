@@ -1,0 +1,77 @@
+body {
+  background-color: #77c;
+  color: #fff;
+  display: flex;
+  flex-diretion: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 800px;
+  padding: 15px 20px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0px 40px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 50%;
+  font-size: 18px;
+}
+
+.form-control input:hover {
+  outline: 0;
+  border-bottom-color: #33d;
+}
+
+textarea {
+  background-color: #eee;
+  width: 50%;
+  height: 150px;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  display: inline;
+}
+
+.btn {
+  cursor: pointer;
+  width: 30%;
+  height: 40px;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  opacity: 80%;
+  border-color: #33d;
+}
+
+.container button {
+  display: flex;
+  flex-diretion: row;
+  align-items: center;
+  justify-content: center;
+}
